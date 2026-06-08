@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oak & Aura</title>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <!-- google font link -->
+    <link  rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arbutus&family=Cinzel:wght@400..900&family=Dancing+Script:wght@400..700&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Kumar+One+Outline&family=Lavishly+Yours&family=Meow+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Wallpoet&family=WindSong:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- navbar -->
+     <nav class="navbar">
+        <a href="#" class="brand">
+            <span class="brand-name">Oak & Aura</span>
+        </a>
+        <!-- checkbox -->
+         <input type="checkbox" id="check">
+        <!-- label include 2 icons for open and close menu -->
+            <label for="check" class="icons">
+                <!-- menu icon -->
+                <i id="menu-icon" class="fa-solid fa-bars fa-xl" style="color: rgb(139,69,19);"></i>
+                <!-- close icon -->
+                <i id="close-icon" class="fa-solid fa-xmark fa-xl" style="color: rgb(139,69,19);"></i>
+            </label>
+        <!-- links -->
+         <ul class="nav-links">
+            <li class="links"><a href="#home" class="link">Home</a></li>
+            <li class="links"><a href="#products" class="link">Products</a></li>
+            <li class="links"><a href="#about" class="link">About</a></li>
+            <li class="links"><a href="#contact" class="link">Contact</a></li>
+         </ul>
+     </nav>
+    <!-- hero section -->
+     <section id="home" class="hero">
+        <!-- text-content -->
+         <div class="hero-text">
+            <h1 id="hero-title">Modern Furniture for Your Home</h1>
+            <p id="hero-para">Discover our collection of stylish and functional furniture that will transform your living space.</p>
+            <button class="hero-btn">Shop Now</button>
+         </div>
+        <!-- image-content -->
+         <div class="hero-image">
+            <img id="furniture-img" src="./furniture.png" alt="no image">
+         </div>
+     </section>
+    <!-- products section -->
+     <section id="products"class="products">
+        <!-- heading -->
+        <h2 class="product-head">Our Products</h2>
+        <!-- product-container -->
+        <div class="product-container">
+        <!-- cards -->
+         <!-- card 1 -->
+         <div class="card">
+            <img class="card-img"src="./chair.png" alt="no image">
+             <h3 class="card-title">Elegant Chair</h3>
+             <p class="card-para">Experience the perfect blend of style and comfort with our elegant chair.</p>
+             <button class="hero-btn">Buy Now</button>
+         </div>
+         <!-- card 2 -->
+         <div class="card">
+            <img class="card-img"src="./sofa.png" alt="no image">
+             <h3 class="card-title">Cozy Sofa</h3>
+             <p class="card-para">Relax in style with our cozy sofa, crafted for maximum comfort and durability.</p>
+             <button class="hero-btn">Buy Now</button>
+         </div>
+         <!-- card 3 -->
+         <div class="card">
+            <img class="card-img"src="./table.png" alt="no image">
+             <h3 class="card-title">Modern Table</h3>
+             <p class="card-para">Enhance your experience with our modern rattan table.</p>
+             <button class="hero-btn">Buy Now</button>
+         </div>
+        </div>
+     </section>
+    <!-- banner -->
+     <section id="about" class="banner">
+        <!-- heading -->
+        <h2 class="banner-head">About Us</h2>
+        <p class="banner-para">At Oak & Aura, we are passionate about creating beautiful and functional furniture that enhances your living space. Our team of skilled artisans and designers work tirelessly to craft pieces that are not only stylish but also built to last. We believe that furniture should be more than just a functional item; it should be a reflection of your personality and a source of comfort in your home. Whether you're looking for a statement piece or something more understated, we have something for everyone. Join us on our journey to transform your home into a sanctuary of style and comfort.</p>  
+        <button class="hero-btn banner-btn">Let's Talk</button>
+     </section>
+    <!-- footer -->
+     <section id="contact" class="footer">
+        <!-- contact-divsion -->
+            <div class="contact-text">
+                <h3 class="contact-head">Contact Us</h3>
+                <h4 class="contact-ph">+91 9123456789</h4>
+                <p class="contact-mail">info@oakandaura.com</p>
+                <!-- icons -->
+                <div class="social-icons">
+                    <a class="social-icon" href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook fa-xl" style="color: rgb(139,69,19);"></i></a>
+                    <a class="social-icon" href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram fa-xl" style="color: rgb(139,69,19);"></i></a>
+                    <a class="social-icon" href="https://www.x.com" target="_blank"><i class="fa-brands fa-twitter fa-xl" style="color: rgb(139,69,19);"></i></a>
+                </div>
+            </div>
+            <!-- subscribe -->
+             <div class="subscribe">
+                <h3 class="subscribe-head">Subscribe to our Newsletter</h3>
+                <div class="subscribe-box">
+                    <input type="email" class="subscribe-input" placeholder="Enter your email">
+                    <button class="subscribe-btn">Subscribe</button>
+                </div>
+             </div>
+    </section>
+      <!-- footer -->
+        <footer class="footersection">
+            <p class="footer-text">&copy; May 2026 Oak & Aura. All rights reserved.</p>
+        </footer>
+</body>
+</html>
